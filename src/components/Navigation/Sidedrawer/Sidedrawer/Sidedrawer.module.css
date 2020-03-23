@@ -1,0 +1,21 @@
+@media (min-width:700px){
+    .sidedrawer{
+        display: none;
+    }
+}
+.sidedrawer{
+    position: fixed;
+    height: 100%;
+    top:0;
+    left:0;
+    background:#f8d4d4;
+    width: 70%;
+    z-index: 200;
+    transition: all ease-in-out 0.3s;
+}
+.sidedrawer.open{
+    transform: translateX(0);
+}
+.sidedrawer.close{
+    transform: translateX(-100%);
+}

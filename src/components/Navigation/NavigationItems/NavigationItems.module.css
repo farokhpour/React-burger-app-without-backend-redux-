@@ -1,0 +1,11 @@
+.navigationitems{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+@media(max-width:699px){
+    .navigationitems{
+        display: flex;
+        flex-direction: column;
+    }
+}

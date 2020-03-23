@@ -1,0 +1,21 @@
+.modal{
+    width: 70%;
+    min-height: 200px;
+    left: 20%;
+    padding:30px;
+    position: fixed;
+    top: 20%;
+    z-index: 200;
+    background: white;
+    box-shadow: 1px 1px 1px rgb(151, 151, 151);
+    border: 1px solid rgb(219, 219, 219);
+    transition: all 0.3s ease-out;
+    box-sizing: border-box;
+}
+@media(min-width:600px){
+    .modal{
+        width: 500px;
+        left: calc(50% - 250px);
+        min-height: 350px;
+    }
+}

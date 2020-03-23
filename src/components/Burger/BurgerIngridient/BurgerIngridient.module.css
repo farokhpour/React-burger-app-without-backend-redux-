@@ -1,0 +1,167 @@
+.topBread{
+    width:250px;
+    height:50px;
+    background-color: rgb(170, 112, 57);
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    margin:2px auto;
+} 
+.meat{
+    width: 280px;
+    height: 35px;
+    background-color: rgb(163, 19, 19);
+    margin:2px auto;
+    border-radius: 280px;
+}
+
+.salad{
+    width: 260px;
+    height: 20px;
+    background-color: rgb(13, 231, 13);
+    margin:2px auto;
+    border-radius: 260px;
+}
+.cheese{
+    width: 280px;
+    height: 15px;
+    background-color: rgb(207, 219, 35);
+    margin:2px auto;
+    border-radius: 240px;
+}
+.bacon{
+    width: 250px;
+    height: 10px;
+    background-color: rgb(90, 0, 0);
+    margin:2px auto;
+    border-radius: 40px;
+}
+.tomatoWrraper{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.tomato{
+    width: 90px;
+    height: 10px;
+    background-color: red;
+    margin:2px auto;
+    border-radius: 90px;
+}
+.bottomBread{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(170, 112, 57);
+    border-radius: 250px;
+    margin: 0 auto;
+
+}
+@media  screen and (max-width:992px){
+    .topBread{
+        width:200px;
+        height:30px;
+        background-color: rgb(170, 112, 57);
+        border-top-right-radius: 200px;
+        border-top-left-radius: 200px;
+        margin:2px auto;
+    } 
+    .meat{
+        width: 230px;
+        height: 20px;
+        background-color: rgb(163, 19, 19);
+        margin:2px auto;
+        border-radius: 230px;
+    }
+    
+    .salad{
+        width: 210px;
+        height: 10px;
+        background-color: rgb(13, 231, 13);
+        margin:2px auto;
+        border-radius: 210px;
+    }
+    .cheese{
+        width: 230px;
+        height: 15px;
+        background-color: rgb(207, 219, 35);
+        margin:2px auto;
+        border-radius: 210px;
+    }
+    .bacon{
+        width: 210px;
+        height: 10px;
+        background-color: rgb(90, 0, 0);
+        margin:2px auto;
+        border-radius: 20px;
+    }
+    .tomato{
+        width: 80px;
+        height: 10px;
+        background-color: red;
+        margin:2px auto;
+        border-radius: 80px;
+    }
+    .bottomBread{
+        width: 210px;
+        height: 15px;
+        background-color: rgb(170, 112, 57);
+        border-radius: 210px;
+        margin: 0 auto;
+    
+    }
+}
+@media  screen and (max-width:662px){
+    .topBread{
+        width:150px;
+        height:20px;
+        background-color: rgb(170, 112, 57);
+        border-top-right-radius: 150px;
+        border-top-left-radius: 150px;
+        margin:2px auto;
+    } 
+    .meat{
+        width: 180px;
+        height: 20px;
+        background-color: rgb(163, 19, 19);
+        margin:2px auto;
+        border-radius: 180px;
+    }
+    
+    .salad{
+        width: 160px;
+        height: 10px;
+        background-color: rgb(13, 231, 13);
+        margin:2px auto;
+        border-radius: 160px;
+    }
+    .cheese{
+        width: 180px;
+        height: 15px;
+        background-color: rgb(207, 219, 35);
+        margin:2px auto;
+        border-radius: 160px;
+    }
+    .bacon{
+        width: 160px;
+        height: 10px;
+        background-color: rgb(90, 0, 0);
+        margin:2px auto;
+        border-radius: 20px;
+    }
+    .tomato{
+        width: 60px;
+        height: 10px;
+        background-color: red;
+        margin:2px auto;
+        border-radius: 60px;
+    }
+    
+    .bottomBread{
+        width: 160px;
+        height: 15px;
+        background-color: rgb(170, 112, 57);
+        border-radius: 160px;
+        margin: 0 auto;
+    
+    }
+}

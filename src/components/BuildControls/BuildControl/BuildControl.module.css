@@ -1,0 +1,22 @@
+.btn{
+    width: 35px;
+    margin:1px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #3838ff;
+    color:#ddddec;
+}
+.BuildControl{
+    display: grid;
+    grid-template-columns: 150px auto ;
+    margin-top: 15px;
+    border-bottom: 1px solid #c5c2c2;
+    padding: 15px;
+}
+.count{
+    background-color: #3a66b5;
+    color:white;
+    display:inline-block;
+    width: 19px;
+    border-radius: 19px;
+}

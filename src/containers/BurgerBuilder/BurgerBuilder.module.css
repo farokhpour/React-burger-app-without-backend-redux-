@@ -1,0 +1,11 @@
+.burgerBuilderContainer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top:38px
+}
+@media  screen and (max-width:800px){
+    .burgerBuilderContainer{
+        grid-template-columns: auto ;
+    }
+}

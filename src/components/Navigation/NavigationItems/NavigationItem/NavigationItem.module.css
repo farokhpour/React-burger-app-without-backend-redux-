@@ -1,0 +1,31 @@
+.navitem{
+    display: flex;   
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    background-color: #838383;
+    color:white;
+    box-sizing: border-box;
+}
+.navitem:hover,
+.navitem:active,
+.navitem.active{
+    background-color: #806f6f;
+    border-bottom: 2px solid blue;
+}
+@media(max-width:699px){
+    .navitem{
+        height: 10%;
+        width: 100%;
+        background-color: #806f6f;
+    }
+    .navitem:hover,
+    .navitem:active,
+    .navitem.active{
+        background-color: #938c8c;
+        border-bottom:none;
+        margin-bottom: 5px ;
+
+    }
+}
